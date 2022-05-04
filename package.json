@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint lib",
-    "build": "browserify ./lib/app.js > ./app/app.js",
-    "watch": "watchify ./lib/app.js -o ./app/app.js -v"
+    "build": "browserify ./lib/app.js > ./app/main.js",
+    "watch": "watchify ./lib/app.js -o ./app/main.js -v"
   },
   "keywords": [],
   "author": "",
