@@ -17,6 +17,11 @@ npm run build
 ./node_modules/.bin/http-server app
 ```
 
+
+## Run profiler
+
+https://veripool.org/guide/latest/simulating.html#profiling
+
 ## View profiling data
 
 copy profiling output file into `app` folder
