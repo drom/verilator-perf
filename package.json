@@ -1,0 +1,28 @@
+{
+  "name": "verilator-perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint lib",
+    "build": "browserify ./lib/app.js > ./app/app.js",
+    "watch": "watchify ./lib/app.js -o ./app/app.js -v"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@drom/eslint-config": "^0.10.0",
+    "browserify": "^17.0.0",
+    "eslint": "^8.14.0",
+    "http-server": "^14.1.0",
+    "onml": "^2.1.0",
+    "watchify": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@drom/eslint-config/eslint4/node8",
+    "parserOptions": {
+      "ecmaVersion": 2020
+    }
+  }
+}

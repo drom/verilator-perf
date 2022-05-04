@@ -1,0 +1,11 @@
+body { background: #111; color: #eee; font-family: sans-serif; }
+table { width: 100%; border-collapse: collapse; }
+table, th, td { border: 1px solid #333; }
+th, td { padding: 0 6; }
+.bar { fill: #5f5; }
+text { fill: #555; }
+.warning { background: #ff0; color: #000; }
+.error { background: #f00; color: #000; }
+.timeout { background: #222; color: #fff; }
+.unproven { background: #714200; color: #ff8c8c; }
+.fail { background: #870000; color: #fcabff; }
