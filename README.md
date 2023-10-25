@@ -34,8 +34,13 @@ copy profiling output file into `app` folder
 cp gprof_42.out app
 ```
 
+Create a category file in JSON `view.json`
+
+...how it look like
+
 open viewer in the browser with URL string:
 
 ```
-http://127.0.0.1:8080/?local=gprof_42.out
+http://127.0.0.1:8080/?local=gprof_42.out&local=view.json
+
 ```
