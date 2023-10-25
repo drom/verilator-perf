@@ -17,10 +17,14 @@ npm run build
 ./node_modules/.bin/http-server app
 ```
 
-
 ## Run profiler
 
 https://veripool.org/guide/latest/simulating.html#profiling
+
+
+```
+gprof system_example_bare > gprof_42.out
+```
 
 ## View profiling data
 

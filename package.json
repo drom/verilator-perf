@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint lib",
-    "build": "browserify ./lib/app.js > ./app/main.js",
+    "build": "browserify ./lib/app.js -o ./app/main.js",
     "watch": "watchify ./lib/app.js -o ./app/main.js -v"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
   "devDependencies": {
     "@drom/eslint-config": "^0.10.0",
     "browserify": "^17.0.0",
+    "d3": "^7.6.1",
     "eslint": "^8.14.0",
     "http-server": "^14.1.0",
     "onml": "^2.1.0",
@@ -24,5 +25,8 @@
     "parserOptions": {
       "ecmaVersion": 2020
     }
+  },
+  "dependencies": {
+    "lodash.set": "^4.3.2"
   }
 }
